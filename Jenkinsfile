@@ -1,8 +1,8 @@
 pipeline{
   agent any
   environment{
-    IMG_NAME = 'med-nginx'
-    DOCKER_REPO = 'test'
+    IMG_NAME = 'jenkins'
+    DOCKER_REPO = 'myimage_nginx'
   }
   
   stages{
