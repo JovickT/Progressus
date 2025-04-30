@@ -16,7 +16,7 @@ pipeline{
       steps{
         git (
           branch: 'main',
-          url: 'https://github.com/SapaRandy/test.git'
+          url: 'https://github.com/JovickT/Progressus.git'
         )
       }
     }
